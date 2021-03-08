@@ -14,17 +14,24 @@ header{
     background-color: blue;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: white;
-    text-align: center;
+    text-align:right;
     grid-column: 1/4;
     border: solid black;
     padding: 10px;
 
 }
+#user01{
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(0, 0, 0);
+    text-align: left;
+    font-size: 50%;
+}
 
 Header img{
-    height: 50px;
-    width: 50px;
+    height: 40px;
+    width: 40px;
     clip-path: circle();
+    filter:opacity(60%)
 }
 nav{
     text-align: right;
@@ -47,6 +54,13 @@ main img{
     width: 50px;
 }
 
+.menu{
+
+    text-align: center;
+    width: 150px;
+    height: 80px;
+  }
+
 aside{
     grid-column: 2/4;
     border: solid black;
@@ -58,6 +72,8 @@ footer{
     grid-column: 1/4;
     border: solid black;
     padding-left: 10px;
+    text-align: center;
+
 }
 .WName{
     font-family: Arial, Helvetica, sans-serif;
@@ -65,6 +81,13 @@ footer{
     text-align: left;
     font-size: 50%;
 }
+
+.pie{
+    text-align: justify;
+}
+
+
+
 
 .Buscador{
     text-align: right;
